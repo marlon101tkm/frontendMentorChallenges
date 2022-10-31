@@ -1,0 +1,212 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+body {
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: Montserrat;
+}
+
+
+.card {
+    height: 600px;
+    width: 900px;
+    display: flex;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+
+}
+
+.card #bigPict {
+
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+    
+}
+
+.card #bigPictMob{
+    display: none;
+}
+
+
+
+.text-card {
+    /* max-height: fit-content; */
+    background-color: var(--white);
+    border-radius: 0 10px 10px 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-between; */
+}
+
+
+.text-card .prices {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 20px 0 20px 20px;   
+    
+}
+
+.prices #discount{
+    font-family: Fraunces, sans;
+    font-size: 40px;
+    color: var(--dark-cyan);
+}
+.prices #fullPrice{
+    
+    color: var(--dark-grayish-blue);
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.text-card p {
+    color: var(--dark-grayish-blue);
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: Montserrat, sans;
+
+}
+
+.text-card h3{
+    color: var(--dark-grayish-blue);
+    font-family: Montserrat, sans;
+    
+}
+
+.text-card h1 {
+    font-family: Fraunces, sans;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.text-card button {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    font-family: Montserrat, sans;
+    font-size: 30px;
+}
+
+.text-card button:hover{
+    cursor: pointer;
+    background-color: var(--very-dark-blue);
+}
+
+.text-card button img{
+    height: 25px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    
+    body {
+        background-color: var(--cream);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        min-height: 100vh;
+        padding: 30px;
+        font-family: Montserrat;
+    }
+    .card {
+        height: 600px;
+        width: 375px;
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+        /* border: 2px solid black; */
+        border-radius: 10px;
+    
+    }
+    .card #bigPict {
+        
+        display: none;
+        
+    }
+    .card #bigPictMob{
+        display: flex;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: 50%;
+        
+    }
+
+    .text-card{
+        border-radius: 0 0 10px 10px;
+        padding: 25px;
+    }
+
+    .prices #discount{
+        font-family: Fraunces, sans;
+        font-size: 30px;
+        color: var(--dark-cyan);
+    }
+    .prices #fullPrice{
+        
+        color: var(--dark-grayish-blue);
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+    .text-card h1 {
+        font-family: Fraunces, sans;
+        font-size: 30px;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .text-card button {
+        background-color: var(--dark-cyan);
+        color: var(--white);
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        width: 100%;
+        font-family: Montserrat, sans;
+        font-size: 20px;
+    }
+    .text-card button img{
+        height: 20px;
+    }
+}
