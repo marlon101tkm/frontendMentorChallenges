@@ -5,7 +5,9 @@ Um respositorio contendo os estudos realizados atraves da plataforma Front End M
 | Projeto   | Nível |
 | --------- |:-----:|
 |[Product Preview Card Component][CardComponent]|`NEWBIE`|
+|[Accordion FAQ Card][AccordionFaq]|`NEWBIE`|
 
 
 
 [CardComponent]:https://marlon101tkm.github.io/frontendMentorChallenges/product-preview-card-component/
+[AccordionFaq]:https://marlon101tkm.github.io/frontendMentorChallenges/faq-accordion-card-main/
