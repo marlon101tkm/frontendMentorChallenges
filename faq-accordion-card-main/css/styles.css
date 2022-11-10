@@ -28,7 +28,8 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 30px;
-    background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+    background-image: linear-gradient(var(--soft-violet),var(--soft-blue));
+    
     overflow: hidden;
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -38,6 +39,7 @@ main {
     margin-right: auto;
     margin-top: 80px;
     width: max-content;
+    
 }
 
 .banner {
@@ -49,7 +51,7 @@ main {
     border-radius: 2em;
     width: 900px;
     height: 450px;
-
+    
 }
 
 .images {

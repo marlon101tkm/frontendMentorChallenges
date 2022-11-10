@@ -3,13 +3,15 @@ let arrows = document.getElementsByClassName("icon");
 
 
 
+
 function showAnswer(){
     let classList = this.classList;
+    
     let answer = this.parentElement.nextElementSibling;
     let question = this.parentElement.children[0];
 
     if(classList.contains("icon-up")){
-        console.log("verdade");
+        
         classList.remove("icon-up");
         answer.classList.remove("open");
         question.classList.remove("bold");
