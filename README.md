@@ -1,20 +1,17 @@
-<style>
-    n{ color: rgb(106, 190, 205)}
-    j{ color: rgb(170, 215, 66)}
-    i{color:rgb(241, 182, 4)}
-    a{color:rgb(244, 137, 37)}
-</style>
+
+<!-- intermediate => rgb(241, 182, 4) -->
+<!-- advanced => rgb(244, 137, 37) -->
+
 # Desafios Front End Mentor 
 
 Um respositorio contendo os estudos realizados atraves da plataforma Front End Mentor
 
 | Projeto   | Nível |
 | --------- |:-----:|
-|[Product Preview Card Component][CardComponent]|<n>**NEWBIE**</n>|
-|[Accordion FAQ Card][AccordionFaq]|<n>**NEWBIE**</n>|
-|[Intro Component with Signup Form][SignupForm]|<n>**NEWBIE**</n>|
-|[Advice Generator App][AdviceGenerator]|<j>**JUNIOR**</j>|
-
+|[Product Preview Card Component][CardComponent]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|
+|[Accordion FAQ Card][AccordionFaq]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|
+|[Intro Component with Signup Form][SignupForm]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|
+|[Advice Generator App][AdviceGenerator]|<img src="https://img.shields.io/badge/-JUNIOR- rgb(170, 215, 66)">|
 
 
 
