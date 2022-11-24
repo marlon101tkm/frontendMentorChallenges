@@ -1,0 +1,133 @@
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--light-cyan);
+    font-family: Manrope, sans-serif;
+
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-blue);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--dark-grayish-blue);
+}
+
+.quote-number {
+    padding: 20px 20px;
+}
+
+.quote-text {
+    padding: 20px 20px;
+    font-size: 28px;
+}
+
+.quote-number #number {
+    color: var(--neon-green);
+}
+
+.divider {
+    padding-bottom: 20px;
+    background-image: url('../images/pattern-divider-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.divider-img {
+    background-image: url('../images/pattern-divider-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-container {
+    height: 20px;
+}
+
+
+.btn-rand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 18px;
+    border: none;
+    background-color: var(--neon-green);
+    position: relative;
+    top: 10px;
+
+}
+
+.btn-rand img {
+    width: 25px;
+    height: 25px;
+}
+
+.btn-rand:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 3px var(--neon-green);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 850px) {
+
+    main {
+        width: 50%;
+    }
+
+    .divider {
+        display: block;
+        background-image: url('../images/pattern-divider-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    main {
+        width: 80%;
+    }
+
+    .divider {
+        display: block;
+        background-image: url('../images/pattern-divider-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
