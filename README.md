@@ -6,7 +6,7 @@
 
 A repository containing the studies carried out through the Front End Mentor platform
 
-| Projeto   | Nível |
+| Project   | Level |
 | :--------- |:-----:|
 |[Product Preview Card Component][CardComponent]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|
 |[Accordion FAQ Card][AccordionFaq]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|
