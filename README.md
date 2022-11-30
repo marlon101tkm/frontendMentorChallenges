@@ -2,12 +2,12 @@
 <!-- intermediate => rgb(241, 182, 4) -->
 <!-- advanced => rgb(244, 137, 37) -->
 
-# Desafios Front End Mentor 
+# Front End Mentor Challenges
 
 Um respositorio contendo os estudos realizados atraves da plataforma Front End Mentor
 
 | Projeto   | Nível |
-| --------- |:-----:|
+| :--------- |:-----:|
 |[Product Preview Card Component][CardComponent]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|
 |[Accordion FAQ Card][AccordionFaq]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|
 |[Intro Component with Signup Form][SignupForm]|<img src="https://img.shields.io/badge/-NEWBIE-rgb(106, 190, 205)">|

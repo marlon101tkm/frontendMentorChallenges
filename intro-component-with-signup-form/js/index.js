@@ -30,11 +30,7 @@ function restorePlaceholderName(id) {
 }
 
 function isValid(mainElement, ErElement) {
-
-
-
     
-    // console.log(mainElement.id);
     if (mainElement.value.length === 0) {
         mainElement.className = 'invalid';
         mainElement.placeholder = '';
@@ -61,32 +57,17 @@ function isValid(mainElement, ErElement) {
 
 function showError() {
 
-    // let fnameEr = document.querySelector('#f-name + #er-f-name');
-    // let lNameEd = document.querySelector('#l-name + #er-l-name');
-    // let mailEr = document.querySelector('#mail + #er-mail');
-    // let passEr = document.querySelector('#pass + #er-pass');
-
-    // console.log(fnameEr);
     isValid(fName, fNameEr);
     isValid(lName, lNameEr);
     isValid(mail, mailEr);
     isValid(pass, passEr);
-
-
-
 }
 
 
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    // console.log(testValidity());
-    // if (!testValidity()) {
-    // console.log(testValidity());
     showError();
-
-
-    // }
 })
 
 
