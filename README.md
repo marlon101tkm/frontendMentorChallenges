@@ -4,7 +4,7 @@
 
 # Front End Mentor Challenges
 
-Um respositorio contendo os estudos realizados atraves da plataforma Front End Mentor
+A repository containing the studies carried out through the Front End Mentor platform
 
 | Projeto   | Nível |
 | :--------- |:-----:|
